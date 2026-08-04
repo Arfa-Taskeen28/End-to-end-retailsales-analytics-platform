@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+.env
+
+# Generated data lake + warehouse + marts (reproducible via `python -m retail_analytics.cli all`)
+/data/
+!/data/.gitkeep
